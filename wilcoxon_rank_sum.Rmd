@@ -39,6 +39,10 @@ b = c(122, 118, 120 ,131 ,124 ,118 ,120 ,140 ,124, 120, 134, 127, 127 ,134, 133,
 
 >Under the null hypothesis $\text{H}_0$, the probability of an observation from the population $X$ exceeding an observation from the second population $Y$ equals the probability of an observation from $Y$ exceeding an observation from $X$.
 
+$$
+U_i = n_1n_2 + \frac{n_1(n_1+1)}{2} - R_1
+$$
+
 ```{r}
 wilcox.test(a,b)
 ```
